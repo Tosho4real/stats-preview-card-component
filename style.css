@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: hsl(233, 47%, 7%);
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  hsl(244, 38%, 16%);
+}
+#image-background {
+  height: 40%;
+  width: 100%;
+  background-image: url(images/image-header-mobile.jpg);
+  background-size: cover;
+  background-color: hsl(277, 64%, 61%) ;
+  background-blend-mode: multiply;
+}
+#text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 280px;
+  text-align: center;
+  color: white;
+}
+
+
+
